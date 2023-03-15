@@ -1,29 +1,115 @@
 <!doctype html>
 <html>
 <head>
-<title> Test page web </title>
-<meta name="description" content="Une première page">
-<meta name="keywords" content="html tutorial template">
+	<title>My CV</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			background-color: #f1f1f1;
+		}
+
+		.container {
+			background-color: #fff;
+			margin: 20px auto;
+			padding: 20px;
+			max-width: 800px;
+			border-radius: 5px;
+			box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+		}
+
+		h1, h2 {
+			text-align: center;
+			margin-bottom: 20px;
+		}
+
+		section {
+			margin-bottom: 30px;
+		}
+
+		section h3 {
+			margin-bottom: 10px;
+		}
+
+		section ul {
+			margin: 0;
+			padding: 0;
+			list-style: none;
+		}
+
+		section ul li {
+			margin-bottom: 10px;
+		}
+
+		@media print {
+			body {
+				background-color: #fff;
+			}
+
+			.container {
+				margin: 0;
+				max-width: none;
+				box-shadow: none;
+				border-radius: 0;
+			}
+		}
+	</style>
 </head>
-<link rel="stylesheet" href="style.css">
 <body>
-
-<br>...\...^__^
-<br>....\..(oo)\_______
-<br>.......(__)\.......)\/\
-<br>.............||----w |
-<br>.............||..........||
-<h1> Premier titre </h1>
-<p>
-<b> Paragraphe aléatoire </b>
-Un paragraphe est une section de texte en prose vouée au développement d'un point particulier souvent au moyen de plusieurs phrases,
-dans la continuité du précédent et du suivant.
-
-</p>
-
-<h2> Deuxième titre </h2>
-<p>  Rien Rien </p>
-
-<h3> Fin </h3>
+	<div class="container">
+		<header>
+			<h1>My CV</h1>
+		</header>
+		<section>
+			<h2>Information Personnel </h2>
+			<ul>
+				<li><strong>Nom:</strong> Nour Hachem </li>
+				<li><strong>Email:</strong> nour.hachem@email.com</li>
+				<li><strong>Adresse:</strong> Nantes, France </li>
+			</ul>
+		</section>
+		<section>
+			<h2>Education</h2>
+			<ul>
+				<li>
+					<h3>2021-2022 </h3>
+					<p>Master 2 en Analyse, Modélisation et Simulation </p>
+					<p> Université Paris Saclay </p>
+				</li>
+			</ul>
+			<ul>
+				<li>
+					<h3>2020-2021 </h3>
+					<p>Master 1 en Mathématiques Pures et Appliquées </p>
+					<p> Université Sophia Antipolis </p>
+				</li>
+			</ul>
+			<ul>
+				<li>
+					<h3>2017-2020 </h3>
+					<p> Licence en Mathématiques </p>
+					<p> Université Libanaise</p>
+				</li>
+			</ul>
+		</section>
+		<section>
+			<h2>Expérience</h2>
+			<ul>
+				<li>
+					<h3>Stage de recherche</h3>
+					<p> Laboratoire de Mécaniques Gabriel Lamé  </p>
+					<p> Avril 2022 - Septembre 2022</p>
+		</section>
+		<section>
+			<h2>Compétences </h2>
+			<ul>
+				<li>Matlab</li>
+				<li>Python</li>
+				<li>C++ </li>
+				<li>Freefem ++, Abaqus</li>
+			</ul>
+		</section>
+	</div>
 </body>
 </html>
